@@ -2,13 +2,18 @@
    .activity__cards,
    .hotels__block,
    .partners__container,
-   .philisofy__container,
+   .philosofy__container
    {
    max-width:1480px;
    margin: 0 auto;
    }
    .activity__cards,
-   .hotels__block{
+   .hotels__block,
+   .philosofy_content,
+   .philosofy_info,
+   .testimonials__block,
+   .partners__logo
+   {
    display:flex;
    justify-content: center;
    }
@@ -18,9 +23,8 @@
    .activity__card
    {
    height:620px;
-   width:350px;
+   width:25%;
    margin:10px;
-   border:1px solid black;
    border-radius: 10px;
    }
    .activity__card p{
@@ -28,13 +32,73 @@
    top:80%;
    margin-left: 30px;
    }
-   .philosofy_content{
-     display:flex;
-   }
+
 .philosofy__img {
   width: 60%;
 
 }
 .philosofy__text {
   width: 40%;
+}
+.booking__search{
+  text-align: center;
+}
+.nav__footer__list__item,
+.nav__list__item
+{
+  display: inline-block;
+}
+
+
+
+
+
+/*стили для заголовков*/
+.subheading{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 0;
+letter-spacing: 0.7em;
+text-transform: uppercase;
+color: #474747;
+}
+.heading{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 0;
+color: #2D2D2D;
+}
+/*стили для карточек активностей*/
+.activity__card:nth-child(1){
+  background-image: url('../images/hiking.png');
+}
+.activity__card:nth-child(2){
+  background-image: url('../images/sailing.png');
+}
+.activity__card:nth-child(3){
+  background-image: url('../images/skiing.png');
+}
+.activity__card:nth-child(4){
+  background-image: url('../images/kayaking.png');
+}
+.activity__name{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 0;
+color: #FFFFFF;
+}
+.activity__num{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+color: rgba(255, 255, 255, 0.6);
+opacity: 0.7;
+line-height: 0;
 }
