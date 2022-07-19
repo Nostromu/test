@@ -1,6 +1,7 @@
    .activities__container,
    .activity__cards,
-   .hotels__block
+   .hotels__block,
+   .partners__container,
    {
    max-width:1480px;
    margin: 0 auto;
