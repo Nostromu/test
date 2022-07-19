@@ -2,6 +2,7 @@
    .activity__cards,
    .hotels__block,
    .partners__container,
+   .philisofy__container,
    {
    max-width:1480px;
    margin: 0 auto;
@@ -27,3 +28,13 @@
    top:80%;
    margin-left: 30px;
    }
+   .philosofy_content{
+     display:flex;
+   }
+.philosofy__img {
+  width: 60%;
+
+}
+.philosofy__text {
+  width: 40%;
+}
