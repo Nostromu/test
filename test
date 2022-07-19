@@ -1,1 +1,258 @@
-test
+<!DOCTYPE html>
+<body>
+   <head>
+      <title>Hello world</title>
+   </head>
+   <div class="container__header">
+      <img class="header__logo" alt="logo">
+      <nav class="nav__box">
+         <ul class="nav__list">
+         <li class="nav__list__item">
+            <a href="#">Destinations</a>
+         </li>
+         <li class="nav__list__item">
+            <a href="#">Activities</a>
+         </li>
+         <li class="nav__list__item">
+            <a href="#">About Us</a>
+         </li>
+         <li class="nav__list__item">
+            <a href="#">Contact</a>
+         </li>
+         </ul
+      </nav>
+      <img class="header__menu">
+      </img>
+   </div>
+   <style>
+      .activities__container,
+      .activity__cards,
+      .hotels__block
+      {
+      max-width:1480px;
+      margin: 0 auto;
+      }
+      .activity__cards,
+      .hotels__block{
+      display:flex;
+      justify-content: center;
+      }
+      .heading__block{
+      text-align: center;
+      }
+      .activity__card
+      {
+      height:620px;
+      width:350px;
+      margin:10px;
+      border:1px solid black;
+      border-radius: 10px;
+      }
+      .activity__card p{
+      position:relative;
+      top:80%;
+      margin-left: 30px;
+      }
+   </style>
+   <div class="activities__container">
+      <div class="heading__block">
+         <p class="subheading">Houndreds of</p>
+         <p class="heading">Activities for Everyone</p>
+      </div>
+      <div class="activity__cards">
+         <div class="activity__card">
+            <p class="activity__name">Hiking
+            <p>
+            <p class="activity__num">230 activities</p>
+         </div>
+         <div class="activity__card">
+            <p class="activity__name">Hiking
+            <p>
+            <p class="activity__num">230 activities</p>
+         </div>
+         <div class="activity__card">
+            <p class="activity__name">Hiking
+            <p>
+            <p class="activity__num">230 activities</p>
+         </div>
+         <div class="activity__card">
+            <p class="activity__name">Hiking
+            <p>
+            <p class="activity__num">230 activities</p>
+         </div>
+      </div>
+   </div>
+   <div class="activities__container">
+      <div class="heading__block">
+         <p class="subheading">About Us</p>
+         <p class="heading">Our Philosophy</p>
+      </div>
+      <div class="philosofy__img">
+         <img src="" alt="mountains">
+      </div>
+      <div class="philosofy__text">
+         <div class="philosofy_info">
+            <div class="philosofy__numbers">
+               <p>01</p>
+            </div>
+            <div class="philosofy__description">
+               <h3 class="philosofy__description__h3">Sustainable</h3>
+               <p class="philosofy__description__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam nulla risus,</p>
+            </div>
+         </div>
+         <div class="philosofy_info">
+            <div class="philosofy__numbers">
+               <p>02</p>
+            </div>
+            <div class="philosofy__description">
+               <h3 class="philosofy__description__h3">Fair & Share</h3>
+               <p class="philosofy__description__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam nulla risus,</p>
+            </div>
+         </div>
+         <div class="philosofy_info">
+            <div class="philosofy__numbers">
+               <p>03</p>
+            </div>
+            <div class="philosofy__description">
+               <h3 class="philosofy__description__h3">Experience</h3>
+               <p class="philosofy__description__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam nulla risus,</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="hotels__container">
+      <div class="heading__block">
+         <p class="subheading">beauties</p>
+         <p class="heading">Hotels and Appartments</p>
+      </div>
+      <div class="hotels__block">
+         <div class="single_hotel">
+            <img src="" alt="hotel">
+            <div class="hotel_info">
+               <p class="hotel_name"></p>
+               <img src="" alt="hotel_rating">
+            </div>
+            <p class="hotel_price">$720</p>
+         </div>
+         <div class="single_hotel">
+            <img src="" alt="hotel">
+            <div class="hotel_info">
+               <p class="hotel_name"></p>
+               <img src="" alt="hotel_rating">
+            </div>
+            <p class="hotel_price">$720</p>
+         </div>
+         <div class="single_hotel">
+            <img src="" alt="hotel">
+            <div class="hotel_info">
+               <p class="hotel_name"></p>
+               <img src="" alt="hotel_rating">
+            </div>
+            <p class="hotel_price">$720</p>
+         </div>
+      </div>
+      <div class="booking__search">
+         <form>
+            <label for="date">date:</label>
+            <select id="date" placeholder="Tue, 3 Nov" name="date">
+               <option>Tue, 3 Nov</option>
+            </select>
+            <label for="location">date:</label>
+            <select id="location" placeholder="Marocco" name="location">
+               <option>Marocco</option>
+            </select>
+            <label for="place">place:</label>
+            <select id="place" placeholder="Loften" name="place">
+               <option>Loften</option>
+            </select>
+            <button type="submit">Search</button>
+         </form>
+      </div>
+   </div>
+
+  <div class="partners__container">
+    <div class="heading__block">
+       <p class="subheading">network</p>
+       <p class="heading">Our Partners</p>
+    </div>
+    <div class="partners__logo">
+      <img src="" alt='microsoft'>
+      <img src="" alt='magento'>
+      <img src="" alt='lakehouse'>
+      <img src="" alt='midea'>
+    </div>
+    <div class="testimonials__block">
+      <div class="testimonial__item">
+         <div class="testimonial__cloud">
+           <img src="" alt="testimonial__blockquote">
+           <p class="testimonial__text">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. consectetur adipiscing elit. nibh lectus feugiat nunc
+           </p>
+         </div>
+         <div class="testimonial__client">
+           <img src="" alt="avatar">
+           <span>Jane Cooper</span>
+           <span> SEO ABC Corporation</span>
+         </div>
+      </div>
+      <div class="testimonial__item">
+         <div class="testimonial__cloud">
+           <img src="" alt="testimonial__blockquote">
+           <p class="testimonial__text">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. consectetur adipiscing elit. nibh lectus feugiat nunc
+           </p>
+         </div>
+         <div class="testimonial__client">
+           <img src="" alt="avatar">
+           <span>Jane Cooper</span>
+           <span> SEO ABC Corporation</span>
+         </div>
+      </div>
+      <div class="testimonial__item">
+         <div class="testimonial__cloud">
+           <img src="" alt="testimonial__blockquote">
+           <p class="testimonial__text">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. consectetur adipiscing elit. nibh lectus feugiat nunc
+           </p>
+         </div>
+         <div class="testimonial__client">
+           <img src="" alt="avatar">
+           <span>Jane Cooper</span>
+           <span> SEO ABC Corporation</span>
+         </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+   <div class="container__footer">
+     <img src="" class="footer__logo" alt="logo">
+     <nav class="nav__footer__box">
+        <ul class="nav__footer__list">
+        <li class="nav__footer__list__item">
+           <a href="#">Destinations</a>
+        </li>
+        <li class="nav__footer__list__item">
+           <a href="#">Activities</a>
+        </li>
+        <li class="nav__footer__list__item">
+           <a href="#">About Us</a>
+        </li>
+        <li class="nav__footer__list__item">
+           <a href="#">Contact</a>
+        </li>
+        <li class="nav__footer__list__item">
+           <a href="#">Privacy Policy</a>
+        </li>
+        </ul
+     </nav>
+     <div>
+       <p class="copyright">© 2020 Bikart Design. All rights reserved</p>
+     </div>
+
+   </div>
+</body>
